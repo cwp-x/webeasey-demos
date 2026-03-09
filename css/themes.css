@@ -1,0 +1,92 @@
+body[data-theme="dark"]{
+background:#111;
+color:white;
+}
+
+body[data-theme="green"]{
+--primary:#16a34a;
+}
+
+body[data-theme="orange"]{
+--primary:#f97316;
+}
+
+body[data-theme="luxury"]{
+--primary:#d4af37;
+background:#d50808;
+color:white;
+}
+
+/* DEFAULT THEME */
+
+:root{
+--primary:#4f46e5;
+--bg:#ffffff;
+--text:#111;
+--card:#f5f5f5;
+}
+
+body{
+background:var(--bg);
+color:var(--text);
+}
+
+.card{
+background:var(--card);
+}
+
+
+/* ========================= */
+/* GYM DARK THEME */
+/* ========================= */
+
+body[data-theme="dark"]{
+
+--primary:#22c55e;
+--bg:#0f172a;
+--text:#f8fafc;
+--card:#1e293b;
+
+}
+
+
+/* ========================= */
+/* GYM GREEN THEME */
+/* ========================= */
+
+body[data-theme="green"]{
+
+--primary:#16a34a;
+--bg:#f0fdf4;
+--text:#052e16;
+--card:#dcfce7;
+
+}
+
+
+/* ========================= */
+/* GYM ORANGE THEME */
+/* ========================= */
+
+body[data-theme="orange"]{
+
+--primary:#f97316;
+--bg:#fff7ed;
+--text:#7c2d12;
+--card:#fed7aa;
+
+}
+
+
+/* ========================= */
+/* GYM LUXURY THEME */
+/* ========================= */
+
+body[data-theme="luxury"]{
+
+--primary:#d4af37;
+--bg:#0b0b0b;
+--text:#c72ec7;
+--card:#1a1a1a;
+
+}
