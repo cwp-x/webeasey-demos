@@ -15,9 +15,9 @@ const nicheData = {
     subtitle: "Enhance your natural beauty with our experts"
   },
 
-  ecommerce: {
-    title: "Modern Online Store",
-    subtitle: "Discover the best products at unbeatable prices"
-  }
+   realestate: {
+  title: "Premium Real Estate Properties",
+  subtitle: "Find your dream home in the best locations"
+}
 
 };
